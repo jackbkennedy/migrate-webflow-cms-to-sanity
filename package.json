@@ -1,0 +1,27 @@
+{
+  "name": "webflow-to-sanity",
+  "version": "1.0.0",
+  "description": "imports data from webflow cms to sanity cms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node migrate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sanity",
+    "webflow",
+    "cms"
+  ],
+  "author": "@jackbkennedy",
+  "license": "MIT",
+  "dependencies": {
+    "@sanity/block-tools": "^3.14.5",
+    "@sanity/client": "^6.4.0",
+    "@sanity/schema": "^3.14.5",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^2.6.12",
+    "readline": "^1.3.0"
+  }
+}
