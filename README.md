@@ -73,7 +73,3 @@ This code contains a demo mapping function for how to handle:
 ## **License**
 
 This project is licensed under the MIT License.
-
----
-
-You can customize the README further as per your needs.
